@@ -1,0 +1,10 @@
+#1 
+    Creazione di un nuovo progetto laravel con composer
+
+#2
+    Verificare che sia tutto ok lanciando il comando: 
+
+        php artisan serve
+
+#3
+    Inizializzare il progetto per il push in github

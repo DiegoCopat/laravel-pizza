@@ -1,0 +1,27 @@
+BRANCH - E' una linea dipendente di sviluppo, per effettuare un lavoro in condivisione con altri sviluppatori.
+
+MERGE - Fondere il progetto parallelo e sostituire quello che attualmente è online e operativo. 
+
+    WORKFLOW BASE 
+Quando si lavora in team  e si collabora ad una stesa repo è importante seguire una certa prassi: 
+    #1
+        All'inizio di ogni nuova implementazione, si fa un pull e si crea un nuovo branch, a partire dal main 
+    
+    #2 
+        Si continua a lavorare e committare sul proprio branch 
+    
+    #3
+        Al termine dello sviluppo, ci si sposta sul branch main e si esegue un pull 
+            - è importante aggiornare il proprio branch main locale con le modifiche che possono essere stata pushate dagli altri collaboratori nel frattempo: così facendo si limitano i conflitti
+    
+    #4 
+        Si esegue il merge 
+    
+    #5 
+        si cancella il banch creato al punto 1
+
+    #6 
+        si esegue il push 
+
+    #7 
+        e così via, si riparte dal primo punto... 
